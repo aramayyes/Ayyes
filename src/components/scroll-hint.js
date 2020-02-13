@@ -22,8 +22,6 @@ const MouseSVG = styled(MouseSvgIcon)`
 `
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  font-size: 20px;
-
   animation: bounce 3s infinite;
 
   @keyframes bounce {
@@ -44,6 +42,7 @@ const Logo = ({ className, style, theme }) => (
       <StyledFontAwesomeIcon
         icon={faArrowDown}
         color={theme.colors.mainWhite}
+        style={{ fontSize: '20px' }}
       />
     </span>
   </WrapperDiv>

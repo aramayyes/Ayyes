@@ -140,14 +140,13 @@ const StyledVideo = styled.video`
 
 const SliderArrowFontAwesomeIcon = styled(
   ({ isNext, currentSlide, slideCount, ...props }) => (
-    <FontAwesomeIcon {...props} /> // Filter props passing to the component
+    <FontAwesomeIcon style={{ fontSize: '32px' }} {...props} /> // Filter props passing to the component
   )
 )`
   position: absolute;
   top: 50%;
   ${props => (props.isNext ? 'right: -42px' : 'left: -42px')};
 
-  font-size: 32px;
   cursor: pointer;
 
   -webkit-transform: translate(0, -50%);

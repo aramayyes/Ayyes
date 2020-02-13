@@ -56,10 +56,6 @@ const InputIconWrapperSpan = styled.span`
   top: 16px;
 `
 
-const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  font-size: 18px;
-`
-
 const StyledInput = styled.input`
   width: 100%;
   height: 100%;
@@ -169,9 +165,10 @@ const Contact = ({ className, style, theme }) => {
         <NameEmailRowDiv>
           <InputWrapperDiv>
             <InputIconWrapperSpan>
-              <StyledFontAwesomeIcon
+              <FontAwesomeIcon
                 icon={faUser}
                 color={theme.colors.mainBlack}
+                style={{ fontSize: '18px' }}
               />
             </InputIconWrapperSpan>
             <StyledInput
@@ -188,9 +185,10 @@ const Contact = ({ className, style, theme }) => {
           </InputWrapperDiv>
           <InputWrapperDiv>
             <InputIconWrapperSpan>
-              <StyledFontAwesomeIcon
+              <FontAwesomeIcon
                 icon={faEnvelope}
                 color={theme.colors.mainBlack}
+                style={{ fontSize: '18px' }}
               />
             </InputIconWrapperSpan>
             <StyledInput

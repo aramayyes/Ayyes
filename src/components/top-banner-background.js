@@ -20,7 +20,7 @@ const MainImage = styled(Image)`
 const TopBannerBackground = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "top-banner-background.png" }) {
+      file(relativePath: { eq: "top-banner-background.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid

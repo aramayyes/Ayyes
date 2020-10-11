@@ -39,27 +39,6 @@
     "externalLink": "https://bit.ly/ayy_exstore"
   },
   {
-    "title": "ConverterS",
-    "slug": "converters",
-    "platform": ["Android"],
-    "writtenIn": ["C#"],
-    "thirdParty": ["Xamarin"],
-    "releaseDate": 2016,
-    "previewImage": "./images/converters/converters-preview.png",
-    "videoLink": "https://www.dropbox.com/s/18885hneey5tvgc/ConverterS.mp4?raw=1",
-    "downloadLink": "https://bit.ly/ayy_converters"
-  },
-  {
-    "title": "ReminderS",
-    "slug": "reminders",
-    "platform": ["Android"],
-    "writtenIn": ["Java"],
-    "releaseDate": 2016,
-    "previewImage": "./images/reminders/reminders-preview.png",
-    "videoLink": "https://www.dropbox.com/s/9xwo7efdl6ou75g/ReminderS.mp4?raw=1",
-    "downloadLink": "https://bit.ly/ayy_reminders"
-  },
-  {
     "title": "Snakeoid",
     "slug": "snakeoid",
     "platform": ["Windows"],
@@ -80,17 +59,6 @@
     "previewImage": "./images/bluehat/bluehat-preview.png",
     "videoLink": "https://www.dropbox.com/s/g1z81ogkzj1qb3u/BlueHat.mp4?raw=1",
     "downloadLink": "https://bit.ly/ayy_bluehat"
-  },
-  {
-    "title": "Calendar",
-    "slug": "calendar",
-    "platform": ["Windows"],
-    "writtenIn": ["C++"],
-    "thirdParty": ["WinForms"],
-    "releaseDate": 2015,
-    "previewImage": "./images/calendar/calendar-preview.png",
-    "videoLink": "https://www.dropbox.com/s/0lo0tcw6wf8lt94/Calendar.mp4?raw=1",
-    "downloadLink": "https://bit.ly/ayy_calendar"
   },
   {
     "title": "Chess",

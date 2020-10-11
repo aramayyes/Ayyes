@@ -7,34 +7,44 @@ import Link from './link'
 
 const requireSvgIcon = name => {
   switch (name) {
-    case 'Windows':
-      return require('../components/svg/windows.svg').default
     case 'Android':
       return require('../components/svg/android.svg').default
-    case 'Telegram':
-      return require('../components/svg/telegram.svg').default
-    case 'Facebook':
-      return require('../components/svg/facebook.svg').default
-    case 'WEB':
-      return require('../components/svg/web.svg').default
-    case 'C++':
-      return require('../components/svg/c-plus-plus.svg').default
-    case 'Java':
-      return require('../components/svg/java.svg').default
-    case 'C#':
-      return require('../components/svg/c-sharp.svg').default
-    case 'JS':
-      return require('../components/svg/js.svg').default
-    case 'Python':
-        return require('../components/svg/python.svg').default
-    case 'HTML':
-      return require('../components/svg/html.svg').default
     case 'BotFramework':
       return require('../components/svg/bot-framework.svg').default
-    case 'Xamarin':
-      return require('../components/svg/xamarin.svg').default
+    case 'C#':
+      return require('../components/svg/c-sharp.svg').default
+    case 'C++':
+      return require('../components/svg/c-plus-plus.svg').default
+    case 'Dart':
+      return require('../components/svg/dart.svg').default
+    case 'Facebook':
+      return require('../components/svg/facebook.svg').default
+    case 'Flutter':
+      return require('../components/svg/flutter.svg').default
+    case 'GraphQL':
+      return require('../components/svg/graphql.svg').default
+    case 'HTML':
+      return require('../components/svg/html.svg').default
+    case 'Java':
+      return require('../components/svg/java.svg').default
+    case 'JS':
+      return require('../components/svg/js.svg').default
+    case 'NestJS':
+      return require('../components/svg/nestjs.svg').default
+    case 'Python':
+      return require('../components/svg/python.svg').default
     case 'SFML':
       return require('../components/svg/sfml.svg').default
+    case 'Telegram':
+      return require('../components/svg/telegram.svg').default
+    case 'TypeScript':
+      return require('../components/svg/typescript.svg').default
+    case 'WEB':
+      return require('../components/svg/web.svg').default
+    case 'Windows':
+      return require('../components/svg/windows.svg').default
+    case 'Xamarin':
+      return require('../components/svg/xamarin.svg').default
     default:
       return null
   }
@@ -121,11 +131,11 @@ const LogosBarDiv = styled.div`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: ${props => props.theme.colors.secondaryWhite};
 
   & > * {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   svg:last-child {
@@ -196,7 +206,7 @@ const Work = ({
       </ImageWrapperDiv>
       <LogosBarDiv>
         {icons.map(({ svg: IconSvg, title: IconTitle }, index) => (
-          <IconSvg width="50%" key={index.toString()} title={IconTitle} />
+          <IconSvg width="40%" key={index.toString()} title={IconTitle} />
         ))}
       </LogosBarDiv>
     </WrapperDiv>

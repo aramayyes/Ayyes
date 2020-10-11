@@ -1,5 +1,14 @@
 [
   {
+    "title": "Rhoshop",
+    "slug": "rhoshop",
+    "platform": ["Flutter"],
+    "writtenIn": ["Dart", "TypeScript"],
+    "thirdParty": ["NestJS", "GraphQL"],
+    "previewImage": "./images/rhoshop/rhoshop-preview.png",
+    "externalLink": "https://github.com/aramayyes/rhoshop-mobile"
+  },
+  {
     "title": "Dram Bot",
     "slug": "dram-bot",
     "platform": ["Telegram", "Facebook"],

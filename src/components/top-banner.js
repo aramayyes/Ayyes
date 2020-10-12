@@ -13,10 +13,11 @@ import ScrollHint from './scroll-hint'
 const WrapperDiv = styled.div`
   display: flex;
   justify-content: center;
+  min-height: 600px;
 `
 const StyledParticles = styled(Particles)`
   position: absolute;
-  height: 100vh;
+  min-height: 600px;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
 `

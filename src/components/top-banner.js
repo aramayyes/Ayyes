@@ -14,10 +14,12 @@ const WrapperDiv = styled.div`
   display: flex;
   justify-content: center;
   min-height: 600px;
+  height: 100vh;
 `
 const StyledParticles = styled(Particles)`
   position: absolute;
   min-height: 600px;
+  height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
 `

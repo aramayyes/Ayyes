@@ -4,7 +4,7 @@ import Image from 'gatsby-image'
 import styled from 'styled-components'
 
 const WrapperDiv = styled.div`
-  height: 100vh;
+  //height: 100vh;
   width: 100%;
   text-align: center;
   background-color: ${props => props.theme.colors.mainBlack};
@@ -15,6 +15,10 @@ const MainImage = styled(Image)`
   max-width: 1920px;
   max-height: 100%;
   margin: 0 auto;
+
+  @media screen and (max-width: ${props => props.theme.mediaSizes.medium}) {
+    height: 100%;
+  }
 `
 
 const TopBannerBackground = () => {

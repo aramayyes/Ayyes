@@ -79,13 +79,13 @@ Logo.propTypes = {
 }
 
 Logo.defaultProps = {
-  width: '240px',
+  width: '200px',
   responsiveWidths: {
     extraSmall: '120px',
-    small: '180px',
-    medium: '220px',
-    large: '240px',
-    minExtraLarge: '400px'
+    small: '150px',
+    medium: '180px',
+    large: '200px',
+    minExtraLarge: '340px'
   },
   isHovered: false,
   onMouseEnter: () => {},

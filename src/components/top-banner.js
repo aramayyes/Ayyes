@@ -41,6 +41,8 @@ const LogoAndNavigationWrapper = styled.div`
 const LogoLink = styled(Link)`
   text-decoration: none;
   display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
 `
 
 const SublogoLink = styled(Link)`
